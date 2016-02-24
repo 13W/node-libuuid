@@ -1,14 +1,14 @@
 { "name" : "libuuid"
 , "description" : "link out to operating systems uuid_generate"
 , "keywords" : [ "libuuid", "uuid" ]
-, "version" : "0.1.4"
+, "version" : "0.1.5"
 , "author" : { "name" : "Theo Schlossnagle" }
 , "directories": { "lib": "." }
 , "repository" :
   { "type" : "git"
   , "url" : "git://github.com/postwait/node-libuuid.git"
   }
-, "dependencies" : { "nan" : "1.8.4" }
+, "dependencies" : { "nan" : "2.2.0" }
 , "bugs" :
   { "url" : "http://github.com/postwait/node-libuuid/issues"
   }
